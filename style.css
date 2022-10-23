@@ -21,24 +21,14 @@ body, h1,h3{
 }
 
 .center {
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 50%;
-    transform: translate(0, -50%);
-    border: 5px solid #FFFF00;
-    padding: 10px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     }
  img{
     border-radius: 50%;
     width: 100px;
   }
-
-.down{
-    position: absolute;
-    bottom: 0px;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-}
 
